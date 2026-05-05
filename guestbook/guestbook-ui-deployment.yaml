@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         # - image: gcr.io/google-samples/gb-frontend:v5
-        - image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5 # ghcr.io/bitnami/guestbook-frontend #bitnami/guestbook-frontend
+        - image: php:8-apache # us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5 # ghcr.io/bitnami/guestbook-frontend #bitnami/guestbook-frontend
           name: guestbook-ui
           ports:
             - containerPort: 80
